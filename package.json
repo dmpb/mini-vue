@@ -1,0 +1,29 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "MiniVue es una pequeña librería sobre como funciona Vuejs.",
+  "main": "dist/main.bundle.js",
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmpb/mini-vue.git"
+  },
+  "keywords": [],
+  "author": "Daniel Ponce <dmep17@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmpb/mini-vue/issues"
+  },
+  "homepage": "https://github.com/dmpb/mini-vue#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
