@@ -1,5 +1,5 @@
 {
-  "name": "public",
+  "name": "@dmpb017/public-mini-vue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
     "webpack": "^5.66.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.3"
