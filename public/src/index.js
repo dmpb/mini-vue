@@ -1,27 +1,12 @@
-/*import MiniVue from "./scripts/MiniVue"
+import MiniVue from "./../../src/index"
 import javascriptLogo from "./../src/assets/images/javascript-logo.jpeg"
-import "./styles/main.css"*/
-
-/*import MiniVue from "./../src/index.js"
+import "./styles/main.css"
 
 const app = new MiniVue({
     data() {
         return {
             message: "Hello world",
             url: javascriptLogo,
-        }
-    },
-})
-
-app.mount()
-*/
-import MiniVue from "./../../src/index"
-
-const app = new MiniVue({
-    data() {
-        return {
-            message: "Hello world",
-            url: "asdf",
         }
     },
 })
