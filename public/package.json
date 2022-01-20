@@ -22,6 +22,6 @@
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
-    "@dmpb017/mini-vue": "^1.0.0"
+    "@dmpb017/mini-vue": "^1.0.1"
   }
 }

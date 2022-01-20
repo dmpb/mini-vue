@@ -1,4 +1,4 @@
-import MiniVue from "./../../dist/index"
+import MiniVue from "@dmpb017/mini-vue"
 import javascriptLogo from "./../src/assets/images/javascript-logo.jpeg"
 import "./styles/main.css"
 
